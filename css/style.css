@@ -1,0 +1,138 @@
+header {
+    width: 100%;
+    /*background-color: #46315c;*/
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #4a2d41;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+}
+
+label {
+    color: #be96a2;
+}
+
+p {
+    color: white;
+    text-align: center;
+    max-width: 900px;
+}
+
+footer {
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+}
+
+.nav {
+    margin-bottom: 20px;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav li {
+    display: inline;
+}
+
+h1 {
+    margin-bottom: 70px;
+    color: #be96a2;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #be96a2;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #be96a2;
+}
+
+.button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #7f678e;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #9f9dba;
+}
+
+/*Страница с портфолио*/
+
+.portfolio {
+    display: flex;
+    align-items: center;
+}
+
+.portfolio p {
+    color: white;
+    text-align: center;
+    max-width: 500px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    border: 15px solid #2a114b;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.film-poster {
+    width: 150px;
+    height: auto;
+    border: 10px solid #2a114b;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.film-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.film-item {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.my-films h2 {
+    text-align: center;
+}
+
+.film-item h3 {
+    margin-left: 20px;
+}

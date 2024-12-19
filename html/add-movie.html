@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="todo list, фильмы, добавить фильм">
+    <meta name="description" content="Добавьте фильм в свой список.">
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/add-movie.css" />
+    <title>Добавить фильм</title>
+    <script src="../js/add-movie.js" defer></script>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <a href="index.html" class="button">Main page</a>
+        <a href="my-list.html" class="button">Portfolio</a>
+        <a href="about.html" class="button">About page</a>
+    </div>
+</header>
+
+
+<main>
+    <div class="todo-film-container">
+        <div id="todo-newfilm">
+            <input type="text" placeholder="Enter new film...">
+            <button id="add-new-film-button">ADD</button>
+        </div>
+        <div class="preloader" id="preloader" style="display: none;">
+            <img src="../gif/cat-meme.gif" alt="Loading..." />
+        </div>
+        <div class="error-message" id="error-message" style="display: none;">⚠ Что-то пошло не так</div>
+
+        <div id="todo-films">
+
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <p>2024 My Todo Film List</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Портфолио, фильмы, мой список">
+  <meta name="description" content="Страница про меня">
+  <title>Портфолио</title>
+  <link rel="stylesheet" type="text/css" href="../css/style.css" />
+  <script src="../js/navigationScript.js" defer></script>
+  <style>
+    .header {
+      padding: 250px 0;
+    }
+
+    .container {
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+<header class="header">
+
+</header>
+
+<div class="container">
+  <a href="index.html" class="button">Main page</a>
+  <a href="add-movie.html" class="button">Add movie</a>
+  <a href="about.html" class="button">About page</a>
+</div>
+
+<main class="main">
+  <section class="portfolio">
+    <img src="../photo/avatar.jpg" alt="Моя фотография" class="profile-photo" />
+    <p>Привет! Я Михайлов Егор, и это моя страница.
+      Здесь вы найдете информацию обо мне, а также список моих любимых фильмов.
+      Я студент 3 круса в Университете ИТМО. Работаю бекэнд разработчиком на Qt C++.
+    </p>
+  </section>
+
+  <section class="my-films">
+    <h2>Мои любимые фильмы</h2>
+    <div class="film-list">
+      <div class="film-item">
+        <img src="../photo/gentlemen.jpg" alt="Gentlemen" class="film-poster" />
+        <h3>Gentlemen</h3>
+      </div>
+      <div class="film-item">
+        <img src="../photo/rush.jpg" alt="Rush" class="film-poster" />
+        <h3>Rush</h3>
+      </div>
+      <div class="film-item">
+        <img src="../photo/wolf.jpg" alt="The Wolf of Wall Street" class="film-poster" />
+        <h3>The Wolf of Wall Street</h3>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>© 2024 Мой Todo List по фильмам</p>
+</footer>
+</body>
+</html>

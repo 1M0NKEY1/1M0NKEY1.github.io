@@ -1,0 +1,99 @@
+#todo-newfilm {
+    position: relative;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#todo-newfilm input {
+    width: 520px;
+    height: 31px;
+    font-size: 25px;
+    border: 2px solid #46315c;
+    padding: 12px;
+    color: #46315c;
+    font-weight: 700;
+    position: relative;
+    border-radius: 5px;
+}
+
+#todo-newfilm input:focus {
+    outline: none;
+    border-color: #46315c;
+}
+
+#todo-newfilm button {
+    position: relative;
+    float: right;
+    width: 90px;
+    height: 49px;
+    font-weight: 900;
+    font-size: 25px;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    margin-left: 10px;
+    background-color: #7f678e;
+    border: 1px solid #46315c;
+    border-radius: 4px;
+    transition: all 0.15s ease;
+    text-decoration: none;
+}
+
+#todo-newfilm button:hover {
+    background-color: #46315c;
+}
+
+#todo-newfilm button {
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+#todo-films {
+    margin-top: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.todo-film {
+    background-color: #8963b4;
+    width: 581px;
+    height: 45px;
+    margin-bottom: 19px;
+    padding: 5px 10px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #432a5e;
+}
+
+.todo-film span {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.film-check-box {
+    width: 27px;
+    height: 27px;
+    border-radius: 5px;
+    border: 1px solid #46315c;
+    accent-color: #46315c;
+    margin-right: 30px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.todo-film {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #68507c;
+    border-bottom: 1px solid #68507c;
+}
+
+.film-check-box {
+    transform: scale(1.5);
+}

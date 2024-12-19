@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="todo list, фильмы, о сайте">
+    <meta name="description" content="Узнайте больше о нашем сайте.">
+    <title>О сайте</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <script src="../js/navigationScript.js" defer></script>
+    <script src="../js/aboutPreloader.js"></script>
+    <style>
+        .preloader {
+            display: none;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .error-message {
+            color: red;
+            text-align: center;
+            display: none;
+        }
+
+        .comments {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<header class="header">
+
+</header>
+
+<div class="container">
+    <a href="index.html" class="button">Main page</a>
+    <a href="my-list.html" class="button">Portfolio</a>
+    <a href="add-movie.html" class="button">Add movie</a>
+</div>
+
+<main class="main">
+    <section id="about" class="section">
+        <h2>О сайте</h2>
+        <p>Сайт предназначен для создания списка фильмов, которые вы хотите посмотреть.</p>
+    </section>
+
+    <div class="preloader">
+        <img src="../gif/cat-meme.gif" alt="Loading..." />
+    </div>
+    <div class="error-message" id="error-message">⚠ Что-то пошло не так</div>
+    <div class="comments" id="comments"></div>
+</main>
+
+<footer class="footer">
+    <p>2024 Мой Todo List по фильмам.</p>
+</footer>
+</body>
+</html>
